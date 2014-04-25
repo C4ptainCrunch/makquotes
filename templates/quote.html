@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href='http://fonts.googleapis.com/css?family=Signika+Negative:400,700' rel='stylesheet' type='text/css'>
+        <title>Markquotes</title>
+
+    </head>
+
+    <body style="color: #222;font-family: 'Signika Negative', sans-serif; margin-top: 5em; margin-left: auto; margin-right: auto; width: 80%; ">
+      <h1 style="color: #444">Quote #{{id}}</h1>
+        <p>{{ quote }}</p>
+        <p>
+            <a href="../">New quote</a> - <a href="../like/{{id}}">Like</a> ({{likes}} likes)
+        </p>
+
+        <p style="position: absolute; bottom: 2em; color: #666;">
+            Makquotes : generate funny quotes with Markov chains and irc logs.<br>
+            Beware of ponies !
+        </p>
+    </body>
+</html>
